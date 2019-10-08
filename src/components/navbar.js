@@ -9,7 +9,7 @@ const Navbar = () => (
 					<h1>codefen</h1>
 				</a>
 
-				<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-main" href="/">
+				<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-main">
 					<span aria-hidden="true"></span>
 					<span aria-hidden="true"></span>
 					<span aria-hidden="true"></span>
