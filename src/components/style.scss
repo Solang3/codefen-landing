@@ -1,0 +1,94 @@
+// Importing variables
+@import './variables.scss';
+
+// Importing Bulma from node_modules
+@import '~bulma/bulma.sass';
+
+/* Header */
+.navbar-brand h1{
+	font-size: 2em;
+}
+.has-title {
+	.title, .subtitle {
+		font-family: 'Squada One', sans-serif;
+		font-size: 3.75em;
+		text-transform: uppercase;
+		margin: 0 0 16px 0;
+	}
+	.subtitle {
+		font-size: 1.25em;
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		display: inline-block;
+		padding: 6px 0;
+	}
+	&.title-grey {
+		.title { font-size: 2.2em; color: $grey-dark; }
+		.subtitle { font-size: 1.25em; border-color: $grey-dark; }
+	}
+}
+.hero {
+	.column img{
+		margin-bottom: -55px;
+	}
+	ul.features-list {
+		margin-top: 20px;
+		li {
+			display: flex;
+			i {
+				margin-right: 10px;
+			}
+		}
+	}
+}
+.footer {
+	display: flex;
+	padding: 1.5rem 1.5rem;
+	line-height: 1.5rem;
+	a {
+		border-bottom: 1px solid;
+		color: black;
+	}
+	a:hover {
+		color: $secondary-color;
+	}
+}
+
+section.our-process, section.our-services {
+	.process-list, .services-list {
+		margin-top: 2em;
+		.title {
+			color: $grey-dark;
+		}
+		.icon {
+			background: red;
+			border-radius: 50%;
+			padding: 14px;
+			&.is-large {
+				height: 4rem;
+				width: 4rem;
+			}
+		}
+		.media-content {
+			min-height: 106px;
+			.title {
+			font-family: 'Squada One', sans-serif;
+			text-transform: uppercase;
+			}
+		}
+	}
+}
+section.our-services {
+	background: #f1f1f1;
+	.services-list {
+		margin-top: 20px;
+		.media-content {
+			min-height: 85px;
+		}
+	}
+}
+@media screen and (min-width: 1024px) {
+	.container {
+		max-width: 1080px;
+	}
+}

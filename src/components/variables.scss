@@ -1,0 +1,25 @@
+// VARIABLES
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Questrial|Squada+One&display=swap');
+
+// Set your brand colors
+$red: #ff1212;
+$grey-light: #b0b0b0;
+$grey-dark: #555555;
+$white: #ffffff;
+
+// Update Bulma's global variables
+$family-sans-serif: "Questrial", sans-serif;
+$primary: $red;
+$secondary-color: $grey-dark;
+$link: $red;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $white;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
