@@ -25,5 +25,6 @@ module.exports = {
 				anonymize: true
 			}
 		}
-	]
+	],
+	pathPrefix: "/codefen-landing"
 };
